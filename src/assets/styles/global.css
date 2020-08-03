@@ -31,9 +31,6 @@ html, body, #root {
     height: 100vh;
 }
 
-body {
-    background: var(--color-background);
-}
 
 #root {
     display: flex;
