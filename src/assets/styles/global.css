@@ -1,9 +1,9 @@
 :root {
     font-size: 60%;
 
-    --color-background: #F0F0F7;
+    --color-background: #ececf1;
     --color-primary-lighter: #9871F5;
-    --color-primary-light: #7d50e6;
+    --color-primary-light: #dad9dd;
     --color-primary: #8257E5;
     --color-primary-dark: #774DD6;
     --color-primary-darker: #6842C2;
@@ -25,6 +25,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: var(--color-background);
 }
 
 html, body, #root {
